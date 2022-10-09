@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.button-bar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(180, 2, 2);
+}
+
+.container-item{
+    display: flex;
+    justify-content: flex-end;
+}
+.head-item {
+    background-color: cadetblue;
+    height: 40px;
+    width: 150px;
+}
+
+/* MAIN */
+
+.container-videocall {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: auto;
+    
+}
+
+.card {
+    background-image: url(https://picsum.photos/250);
+    width: 250px;
+    height: 150px;
+    margin-top: 15px ;
+    position: relative;
+}
+.username {
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    background-color: grey;
+}
+
+/* FOOTER */
+
+.button-items{
+    width: 100vw;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content:space-between;
+}
+
+.left-item {
+    width: 200px;
+    height: 80px;
+    background-color:blueviolet;
+   
+}
+
+.center-item {
+    width: 200px;
+    height: 80px;
+    background-color:blueviolet;
+   
+}
+
+.right-item {
+    width: 200px;
+    height: 80px;
+    background-color:blueviolet;
+    
+}
